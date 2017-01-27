@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>The 100</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-black w3-animate-top w3-center w3-xxlarge"  id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-jumbo w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="javascript:void(0)" class="w3-text-grey w3-hover-black">Sign In/Register</a>
+  <a href="javascript:void(0)" class="w3-text-grey w3-hover-black">Blog</a>
+  <a href="javascript:void(0)" class="w3-text-grey w3-hover-black">About Us</a>
+  <a href="javascript:void(0)" class="w3-text-grey w3-hover-black">Contact</a>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-container w3-padding-32 w3-center">
+  <span class="w3-opennav w3-xxlarge w3-right w3-margin-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  <h1 class="heading">The 100</h1>
+  <p class="heading" id="header-text">One Hundred Amazing Images Of The Day</p>
+  <!-- <p class="w3-padding-16"><button class="w3-btn" onclick="myFunction()">Toggle Grid Padding</button></p> -->
+</header>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <div class="image">
+      <img src="images/obama.jpg" data-headlineid="#headline1" class="imageToggle" id="obama">
+      <h2 id="headline1">President Obama Giving Final Speech</h2>
+    </div>
+
+    <div class="image">
+      <img src="images/girl.jpg" data-headlineid="#headline2" class="imageToggle">
+      <h2 id="headline2"> Girl Sees For The First Time</h2>
+    </div>
+
+    <div class="image">
+      <img src="images/berlin.jpg" data-headlineid="#headline3" class="imageToggle">
+      <h2 id="headline3"> Newly Painted Mural In Berlin </h2>
+    </div>
+
+
+    <img src="images/america.jpg" data-headlineid="#headline4" class="imageToggle">
+    <img src="images/rescue.jpg"data-headlineid="#headline5" class="imageToggle">
+    <img src="images/concert.jpg" data-headlineid="#headline6" class="imageToggle">
+    <img src="images/syringe.jpg" data-headlineid="#headline7" class="imageToggle">
+  </div>
+
+  <div class="w3-third">
+
+    <div class="image">
+        <img src="images/shuttle.jpg" data-headlineid="#headline8" class="imageToggle">
+        <h2 id="headline8"> Space X Unveils New Shuttle</h2>
+    </div>
+
+      <img src="images/heart.jpg" data-headlineid="#headline9" class="imageToggle">
+      <img src="images/surgery.jpg" data-headlineid="#headline10" class="imageToggle">
+      <img src="images/space.jpg" data-headlineid="#headline11" class="imageToggle">
+      <img src="images/country.jpg" data-headlineid="#headline12" class="imageToggle">
+      <img src="images/explore.jpg" data-headlineid="#headline13" class="imageToggle">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/elder.jpg" data-headlineid="#headline10" class="imageToggle">
+    <img src="images/budhist.jpg" data-headlineid="#headline11" class="imageToggle">
+    <img src="images/firefighter.jpg" data-headlineid="#headline12"class="imageToggle">
+    <img src="images/boywithflowers.jpg" data-headlineid="#headline13" class="imageToggle">
+    <img src="images/soldier.jpg" data-headlineid="#headline14" class="imageToggle">
+    <img src="images/realmadrid.jpg" data-headlineid="#headline15" class="imageToggle">
+
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" >
+  <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+   <i class="fa fa-instagram w3-hover-text-purple"></i>
+  <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+  <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+  <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+  <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  <p id="copyright"> &copy The 100 </p>
+</footer>
+
+
+<script src="script.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+</body>
+</html>
